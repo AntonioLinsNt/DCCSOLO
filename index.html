@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Solo - Dungeon Crawl Classics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Aventura Solo - Dungeon Crawl Classics</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#ficha-personagem">Ficha do Personagem</a></li>
+            <li><a href="#rolagem-dados">Rolagem de Dados</a></li>
+            <li><a href="#aventuras">Aventuras</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="ficha-personagem">
+            <h2>Ficha do Personagem</h2>
+            <form id="form-personagem">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="classe">Classe:</label>
+                <input type="text" id="classe" name="classe">
+
+                <label for="forca">Força:</label>
+                <input type="number" id="forca" name="forca">
+
+                <label for="agilidade">Agilidade:</label>
+                <input type="number" id="agilidade" name="agilidade">
+
+                <label for="resistencia">Resistência:</label>
+                <input type="number" id="resistencia" name="resistencia">
+
+                <label for="inteligencia">Inteligência:</label>
+                <input type="number" id="inteligencia" name="inteligencia">
+
+                <label for="sorte">Sorte:</label>
+                <input type="number" id="sorte" name="sorte">
+
+                <button type="button" id="salvar-personagem">Salvar Ficha</button>
+            </form>
+        </section>
+
+        <section id="rolagem-dados">
+            <h2>Rolagem de Dados</h2>
+            <label for="tipo-dado">Escolha o dado:</label>
+            <select id="tipo-dado">
+                <option value="3">D3</option>
+                <option value="4">D4</option>
+                <option value="6">D6</option>
+                <option value="8">D8</option>
+                <option value="10">D10</option>
+                <option value="12">D12</option>
+                <option value="20">D20</option>
+                <option value="24">D24</option>
+                <option value="30">D30</option>
+
+            </select>
+            <button type="button" id="rolar-dado">Rolar Dado</button>
+            <p id="resultado-rolagem"></p>
+        </section>
+
+        <section id="aventuras">
+            <h2>Aventuras</h2>
+            <p>Escolha uma aventura para começar:</p>
+            <ul>
+                <li><a href="adventures/aventura1.md">Aventura 1: Templo Abandonado</a></li>
+                <!-- Mais aventuras podem ser adicionadas aqui -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RPG Solo - DCC RPG</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

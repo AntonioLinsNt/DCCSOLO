@@ -1,0 +1,11 @@
+# Aventura 1: O Templo Abandonado
+
+## Introdução
+
+Você está diante de um antigo templo, perdido nas florestas de Abenrath. Dizem que ele guarda segredos antigos e tesouros incalculáveis, mas também perigos inomináveis. Você se aventura por conta própria, sem saber o que encontrará.
+
+## Escolha uma ação:
+
+1. **Entrar furtivamente no templo.**
+2. **Explorar a área ao redor do templo.**
+3. **Esperar e observar o local por algum tempo.**
